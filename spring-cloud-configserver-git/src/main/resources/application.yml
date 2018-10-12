@@ -19,11 +19,11 @@ spring:
             #localhost:8888/s2rates-default.properties /  localhost:8888/s2rates-default.yml
             #localhost:8888/s1rates-dev.json / localhost:8888/s2rates-default.json /
           # secondary repo
-          repos:
-            perf:
-              pattern:
-                -*/perf
-              # does not work
-              uri: https://github.com/vokmon/spring-cloud/tree/master/spring-cloudconfig-wa-tolls-perf
-              search-paths:
-                - 'station*'
+          # does not work
+          #repos:
+          #  perf:
+          #    pattern:
+          #      -*/perf
+          #    uri: https://github.com/vokmon/spring-cloud/tree/master/spring-cloudconfig-wa-tolls-perf
+          #    search-paths:
+          #      - 'station*'
